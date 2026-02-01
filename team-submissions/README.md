@@ -1,6 +1,6 @@
 ## Deliverables Checklist
 
-**Step 0:**
+**Step 0: (Due by noon eastern Sat Jan 31)**
 The Project Lead should fork this repository and share the forked repository link with the NVIDIA judges in a DM on discord (`Monica-NVIDIA`, `Linsey-NV Mentor`, and `Iman_nvidia`).  
 
 **Phase 1 Submission (Due 10pm eastern Sat Jan 31):**
@@ -38,6 +38,7 @@ This challenge is graded on **Rigorous Engineering**, not just raw speed. We are
     * Does the solution scale to larger $N$?
     * Did you successfully accelerate the *Classical* component (e.g., using `cupy` for batch neighbor evaluation) or did you only accelerate the quantum circuit?
     * We reward the **rigorous implementation of creative ideas**. If your novel experiment fails to beat the baseline, document *why* in your report. A "Negative Result" backed by great engineering is a success.
+    * Make sure to document which GPUs you used for each of your results for fair comparisons
 * **Verification [20 points]:**
     * How much of your code is covered by the `tests.py` suite?
     * Does the test suite catch physical violations?
